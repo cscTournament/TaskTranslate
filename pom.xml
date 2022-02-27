@@ -68,12 +68,12 @@
 			<!--  <scope>provided</scope>-->
 		</dependency>
 
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.18</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.glassfish</groupId>
 			<artifactId>javax.faces</artifactId>
@@ -96,13 +96,13 @@
 	</dependencies>
 	<build>
 		<finalName>task-translate</finalName>
-		<plugins>
+	<!-- 	<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-		</plugins>
+		</plugins>-->
 	</build>
 	<repositories>
 		<repository>
